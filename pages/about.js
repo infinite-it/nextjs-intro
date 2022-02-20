@@ -1,11 +1,11 @@
 import NavBar from "../components/NavBar";
 import Seo from "../components/Seo";
 
-export default function Home() {
+export default function About() {
     return (
         <div>
-            <Seo title="Home"/>
-            <h1>Hello</h1>
+            <Seo title="About"/>
+            <h1>About</h1>
         </div>
     );
 }
